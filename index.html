@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Papillons de Nuit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Seymour+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .title {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ED7F10;
+        }
+        .subtitle {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .image {
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+        .event {
+            margin-bottom: 20px;
+        }
+        .event h3 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .event p {
+            color: #666;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #F9429E;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .flex-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.flex-item {
+    flex: 1;
+    background-color: #fdee00;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #ED7F10;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" width="50" height="50" class="main-picture"> 
+        <h1>Festival Papillons de Nuit</h1>
+    </header>
+    <nav>
+        <a href="#about">À Propos</a>
+        <a href="#events">Événements</a>
+        <a href="#contact">Contact</a>
+        <a href="https://papillonsdenuit.com/" target="_blank">Site officiel</a>
+    </nav>
+    <section id="about" class="container">
+        <h2 class="title">À Propos du Festival</h2>
+        <p>À l’heure où les festivals associatifs se voient peu à peu rachetés par des fonds privés, Papillons de Nuit lutte et résiste, depuis 2001.
+
+P2N c’est avant tout un projet de territoire avec pour objectif de favoriser l’accès à la culture dans une zone en voie de désertification rurale.
+
+Organisé par une association à but non lucratif et d’intérêt général, Papillons de Nuit est un projet humain qui peut compter sur ses 1 600 bénévoles réunis le temps d’un week-end et sans qui le festival ne pourrait avoir lieu. Ces bénévoles sont essentiels à la survie d’un festival indépendant, dont chaque édition est un nouveau défi économique.
+
+Le travail collectif a fait le succès et l’identité de P2N. La volonté de chacun et chacune à faire bouger les choses contribue, année après année, à faire de Papillons de Nuit un projet de territoire, l’événement incontournable en Normandie !</p>
+        <img src="images/photo.jpg" alt="Festival Papillons de Nuit">
+    </section>
+    <section id="events" class="container">
+        <h2 class="title">Événements</h2>
+        <div class="event">
+            <h3 class="subtitle">Concerts</h3>
+            <p>Il y a trop d’artistes beaucoup trop cools, et tu galères à t’y retrouver et à faire ton programme. Pour t’aider un peu, on t’a fait un récap des horaires des concerts</p>
+            <button class="button">Retrouvez-le porgramme ici !</button>
+        </div>
+        <div class="event">
+            <h3 class="subtitle">SouPap's</h3>
+            <p>Sur le site du festival, de la bière au t-shirt, tout est payable grâce à la puce SouPap’s. Celle-ci est intégrée à ton bracelet et est scannée chaque fois que tu fais un achat. L’argent que tu y a déposé est alors débité et le solde est remboursé sur demande après le festival. Pense à créditer ta puce SouPap’s avant d’arriver au festival pour avoir l’esprit tranquille !</p>
+            <button class="button">Chargez votre Soupap's</button>
+        </div>
+        <div class="event">
+            <h3 class="subtitle">Le camping</h3>
+            <p>Les campeur.euses aussi ont droit au confort ! Équipé de douches et de sanitaires, le camping est gratuit et sans réservation, pour toute personne détentrice d’un billet pour le festival. Et cerise sur le papillon, il y a aussi de quoi bien s’occuper ! Retrouve ici le détail et les horaires de toutes les animations sur le camping :</p>
+            <button class="button">Programme Camping</button>
+        </div>
+         <section class="container">
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2 class="title">Ce qu'il vous faut pour camper sur le festival</h2>
+            <ul>
+                <li>Une tente</li>
+                <li>Un oreiller</li>
+                <li>Un duvet</li>
+                <li>Un matelas</li>
+                <li>Un déguisement</li>
+                <li>ET VOTRE BONNE HUMEUR !</li>
+            </ul>
+        </div>
+        <div class="flex-item">
+            <h2 class="title">Les étapes dès que vous êtes inscrit pour le festival</h2>
+            <ol>
+                <li>Etape 1 : Récupérer ses billets sur votre boîte mail.</li>
+                <li>Etape 2 : Récupérer votre bracelet à l'entrée du festival</li>
+                <li>Etape 3 : Vous installez au camping (attention il existe 3 campings)</li>
+            </ol>
+        </div>
+    </div>
+</section>
+        <section id="contact" class="container">
+    <h2 class="title">Contact</h2>
+    <p>Pour toute question ou information supplémentaire, veuillez nous contacter :</p>
+    <button class="button">Contactez-nous</button>
+ <div class="section">
+    <h3>Comment venir au festival ?</h3>
+    <div class="flex-center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42094.44450016192!2d-1.1506250355236398!3d48.7455538550686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480be19ac87a3f8b%3A0x40c14484fb968d0!2sSaint-Laurent-de-Cuves!5e0!3m2!1sfr!2sfr!4v1717362189608!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      	
+      </iframe>
+    </div>
+</section>
+  </div>
+  </div>
+  </div>
+    </section>
+    <footer>
+ </div>
+        <p>&copy; 2024 Festival Papillons de Nuit</p>
+    </footer>
+</body>
+</html>
